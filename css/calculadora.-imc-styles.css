@@ -1,0 +1,60 @@
+@import url('./styles.css');
+@import url('./color.css');
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--cor-1);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Shrek {
+    height: 30rem;
+}
+
+.cartao {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-2);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.cartao h2 {
+    margin-bottom: 1rem;
+}
+
+.cartao input {
+    margin-bottom: 1rem;
+    color: black;
+    text-align: center;
+}
+
+.botao_calcular {
+    background-color: #8fffad;
+    color: black;
+}
+
+.resultado_nume {
+    text-align: center;
+}
+
+.resultado__texto {
+    text-align: center;
+}
+
+.teste {
+    color: #37ff00;
+    text-decoration: underline;
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

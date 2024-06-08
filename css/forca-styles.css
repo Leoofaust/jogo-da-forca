@@ -1,0 +1,154 @@
+@import url(./styles.css);
+@import url(./color.css);
+
+body {
+    background-color: var(--cor-1);
+}
+
+.navegacao a {
+
+    font-size: 15px;
+    margin-left: 11px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+    ;
+}
+
+.navegacao a:hover {
+    color: #00e1ff;
+    transform: scale(0.8);
+}
+
+
+.navegacao {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: end;
+    font-weight: 550;
+    padding: 2%;
+    ;
+}
+
+.navegacao a:nth-child(1) {
+    text-decoration: underline;
+
+}
+
+
+
+
+
+
+
+
+
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+}
+
+.teclado {
+    display: grid;
+    align-self: center;
+    grid-template-columns: repeat(9, 5rem);
+    grid-template-rows: repeat(3, 5rem);
+    gap: 7px;
+    
+}
+
+.teclado p {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #545454;
+    -webkit-box-shadow: 0px 10px 12px 0px rgba(0,0,0,0.46);
+    -moz-box-shadow: 0px 10px 12px 0px rgba(0,0,0,0.46);
+    box-shadow: 0px 10px 12px 0px rgba(0,0,0,0.46);
+    border-radius: 10px;
+}
+
+.teclado p:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+
+}
+
+.img-forca {
+    align-self: center;
+    justify-self: center;
+}
+
+.jogo-config {
+
+    padding: 20px;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 2px rgb(51, 8, 97);
+    gap: 5px;
+    justify-self: center;
+}
+
+.jogo-config input {
+    color: black;
+    text-align: center;
+}
+
+.botao-iniciar {
+
+    color: black;
+    height: 1.5rem;
+    background-color: rgb(206, 154, 255);
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.jogo-saida {
+    align-self: center;
+    justify-self: center;
+}
+
+footer {
+
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+    background: rgb(233,93,242);
+    background: linear-gradient(0deg, rgb(99, 41, 154) 0%, rgba(22,20,34,1) 100%);
+}
+.footer_links {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
